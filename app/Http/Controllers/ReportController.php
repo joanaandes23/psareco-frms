@@ -32,7 +32,7 @@ class ReportController extends Controller
             return null;
         }
 
-        $cropped = storage_path('app/public/PSARECO_logo_square.png');
+        $cropped = storage_path('app/public/images/PSARECO_logo_square.png');
 
         if (!file_exists($cropped) || filemtime($cropped) < filemtime($original)) {
             $this->cropToSquare($original, $cropped);
