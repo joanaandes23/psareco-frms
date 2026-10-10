@@ -51,9 +51,9 @@ Specifically, the system aims to:
 
 ---
 
-## 🧩 System Modules
+## System Modules
 
-### 📁 Record Management Module
+### Record Management Module
 Provides a centralized repository for managing important cooperative records, including:
 * Farmer-member profiles
 * Cooperative user accounts
@@ -63,7 +63,7 @@ Provides a centralized repository for managing important cooperative records, in
 * Pesticide records
 * Other relevant agricultural resource information
 
-### 🚜 Machinery Scheduling Management Module
+### Machinery Scheduling Management Module
 Facilitates the scheduling and monitoring of farm machinery used by cooperative members. Key functions include:
 * Machinery rental requests & online booking
 * Request review and approval
@@ -72,7 +72,7 @@ Facilitates the scheduling and monitoring of farm machinery used by cooperative 
 * Rental status monitoring & borrow/return tracking
 * Machinery rental history
 
-### 📦 Sales and Inventory Management Module
+### Sales and Inventory Management Module
 Manages the cooperative's fertilizer and pesticide inventory and sales transactions. Key functions include:
 * Fertilizer and pesticide product management
 * Stock-in, real-time inventory updates, and stock monitoring
@@ -82,7 +82,7 @@ Manages the cooperative's fertilizer and pesticide inventory and sales transacti
 
 ---
 
-## 🛠️ Technology Stack
+## Technology Stack
 
 | Component | Technology |
 | :--- | :--- |
@@ -97,7 +97,7 @@ Manages the cooperative's fertilizer and pesticide inventory and sales transacti
 
 ---
 
-## 💻 Getting Started
+## Getting Started
 
 Follow these steps to set up the system:
 
@@ -106,8 +106,8 @@ Follow these steps to set up the system:
 1. **Clone the repository**
 
     ```sh
-    git clone https://github.com/DJmistMAGO/psareco.git
-    cd psareco
+    git clone https://github.com/joanaandes23/psareco-frms.git
+    cd psareco-frms
     ```
 
 2. **Install PHP dependencies**
@@ -166,7 +166,7 @@ Now you can access the application at `http://localhost:8000`.
 
 If you are using Laragon, follow these steps:
 
-1. Place the cloned `psareco` folder inside your Laragon `www` directory (e.g., `C:\laragon\www\psareco`).
+1. Place the cloned `psareco` folder inside your Laragon `www` directory (e.g., `C:\laragon\www\psareco-frms`).
 2. Start Laragon and ensure Apache/Nginx and MySQL are running.
 3. Open a terminal in the project directory and run:
 
@@ -180,5 +180,5 @@ If you are using Laragon, follow these steps:
     php artisan storage:link
     ```
 
-4. Visit your project in the browser at `http://psareco.test.com` (or the domain Laragon assigns).
+4. Visit your project in the browser at `http://psareco-frms.test.com` (or the domain Laragon assigns).
 
